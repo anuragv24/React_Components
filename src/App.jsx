@@ -11,6 +11,7 @@ import LoadButton from "./Components/05Load_More_Buttom";
 import Menu from "./Components/06menu";
 import menus from "./Components/06menu/data";
 import Home from "./Components/..Spline/SplineFile";
+import QRCodeGen from "./Components/07QR_Code/Index";
 function App() {
   return (
     <>
@@ -25,7 +26,8 @@ function App() {
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} limit={"10"} page={'2'}/> */}
       {/* <LoadButton/> */}
       {/* <Menu menus={menus}/> */}
-      <Home/>
+      {/* <Home/> */}
+      <QRCodeGen/>
     </>
   );
 }
