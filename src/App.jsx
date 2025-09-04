@@ -3,8 +3,8 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 // import "./App.css";
 
-// import Index from './Components/Accordian'
-// import Index from "./Components/Color_Generator";
+import Accordian from './Components/Accordian'
+import Index from "./Components/Color_Generator";
 import Rating from "./Components/StarRating/Index";
 import ImageSlider from "./Components/04Image_Slider/Index";
 import LoadButton from "./Components/05Load_More_Buttom";
@@ -16,10 +16,10 @@ function App() {
   return (
     <>
       {/* Accordian */}
-      {/* <Index/> */}
+     {/* <Accordian/> */}
 
       {/* Random Color */}
-      {/* <Index/> */}
+      <Index/>
       {/* rating */}
       {/* <Rating numOfStar ={10}/> */}
       {/* ImageSlider */}
@@ -27,7 +27,7 @@ function App() {
       {/* <LoadButton/> */}
       {/* <Menu menus={menus}/> */}
       {/* <Home/> */}
-      <QRCodeGen/>
+      {/* <QRCodeGen/> */}
     </>
   );
 }

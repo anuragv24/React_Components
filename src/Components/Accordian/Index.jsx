@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { data } from './data'
 import './style.css'
 
-const Index = () => {
+const Accordian = () => {
 
     const [selected, setSelected] = useState(null)
     const [enableMulSel, setEnableMulSel] = useState(false)
@@ -65,4 +65,4 @@ const Index = () => {
   )
 }
 
-export default Index
+export default Accordian

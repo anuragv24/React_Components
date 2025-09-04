@@ -3,15 +3,15 @@ import { FaStar } from "react-icons/fa";
 import './style.css'
 
 export default function Rating({numOfStar = 5}) {
-  const [rating, setRating] = useState(0);
-  const [hover, setHover] = useState(0);
+  const [rating, setRating] = useState(0);//deal with click
+  const [hover, setHover] = useState(0);//deal with hover
 
   function handleClick(currentIndex) {
-    console.log("handleClick",currentIndex)
+    // console.log("handleClick",currentIndex)
     setRating(currentIndex)
   }
   function handleMouseMove(currentIndex) {
-    console.log("move",currentIndex)
+    // console.log("move",currentIndex)
     setHover(currentIndex)
   }
   function handleMouseLeave() {

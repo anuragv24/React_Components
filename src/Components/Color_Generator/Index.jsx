@@ -8,7 +8,7 @@ function Index() {
    const handleColorType = (type) => {
     if (colorType !== type) {
         setColorType(type);
-        handleColorCreation(type);
+        handleColorCreation();
    }
 }
 
@@ -59,9 +59,10 @@ function Index() {
             <button onClick={() => handleColorType("hex")} >hex color</button>
             <button onClick={() => handleColorType("rgb")} >rgb color</button>
            </div>
-           <h2 style={{color: textColor}}>{colorType} : {ran}</h2>
+           <h2 style={{color: textColor}}>{colorType} : {color}</h2>
         </div>
   )
 }
 
 export default Index
+
