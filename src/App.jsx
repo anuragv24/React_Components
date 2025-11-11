@@ -12,6 +12,7 @@ import Menu from "./Components/06menu";
 import menus from "./Components/06menu/data";
 import Home from "./Components/..Spline/SplineFile";
 import QRCodeGen from "./Components/07QR_Code/Index";
+import Scroll from "./Components/InfinteScroll/Scroll";
 function App() {
   return (
     <>
@@ -19,7 +20,7 @@ function App() {
      {/* <Accordian/> */}
 
       {/* Random Color */}
-      <Index/>
+      {/* <Index/> */}
       {/* rating */}
       {/* <Rating numOfStar ={10}/> */}
       {/* ImageSlider */}
@@ -28,6 +29,7 @@ function App() {
       {/* <Menu menus={menus}/> */}
       {/* <Home/> */}
       {/* <QRCodeGen/> */}
+      <Scroll />
     </>
   );
 }
